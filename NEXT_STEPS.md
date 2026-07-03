@@ -32,6 +32,7 @@ Completed foundation outputs:
 - `reports/workstation-market-timing-factors-2026-07-03.md`
 - `reports/workstation-sale-scan-2026-07-03-it15.md`
 - `reports/workstation-procurement-decision-ordered-2026-07-03.md`
+- `reports/geekom-it15-peripheral-and-monitor-plan-2026-07-03.md`
 - `reports/workstation-procurement-report-template.md`
 - `reports/checkout-validation-2026-07-01.md`
 - `evidence/minisforum-ai-x1-pro-370-checkout-evidence-2026-07-02.md`
@@ -104,4 +105,6 @@ The next output should be a post-order setup and acceptance checklist for the
 GEEKOM IT15. It should cover delivery tracking, receipt/warranty preservation,
 return-window protection, first-boot validation, driver/firmware updates,
 Windows activation, GitHub/repository hub setup, backup/sync/recovery, and the
-acceptance decision before the return window closes.
+acceptance decision before the return window closes. Peripheral planning should
+prioritize a good 27-inch or 32-inch 4K monitor, Ethernet, backup storage, and
+surge/UPS protection before buying a USB hub or dock.
