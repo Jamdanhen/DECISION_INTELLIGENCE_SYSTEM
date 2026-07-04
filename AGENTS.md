@@ -69,6 +69,22 @@ case or module.
 When a step is completed, continue to the next useful step unless a real user
 decision is needed.
 
+## Project Waypoint Synchronization
+
+This project inherits the Crucible Registry Project Waypoint Synchronization
+Rule.
+
+When the user says "establish waypoint" or "create a waypoint":
+
+- Review changed files.
+- Confirm the waypoint aligns with the active objective, authority boundary, and
+  next real decision point.
+- Record intentionally unfinished work, open unknowns, and next triggers.
+- Commit meaningful completed work.
+- Push to GitHub if the repository is connected to a GitHub remote.
+- Stop only after the local and remote project state are synchronized, or after
+  clearly recording the blocker that prevents synchronization.
+
 ## Project Boundary
 
 The Decision Intelligence System owns the reusable decision framework and

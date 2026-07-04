@@ -34,6 +34,8 @@ Completed foundation outputs:
 - `reports/workstation-procurement-decision-ordered-2026-07-03.md`
 - `reports/geekom-it15-peripheral-and-monitor-plan-2026-07-03.md`
 - `reports/post-order-buyers-remorse-scan-2026-07-04.md`
+- `reports/geekom-it15-post-order-setup-and-acceptance-checklist-2026-07-04.md`
+- `reports/project-waypoint-2026-07-04.md`
 - `reports/workstation-procurement-report-template.md`
 - `reports/checkout-validation-2026-07-01.md`
 - `evidence/minisforum-ai-x1-pro-370-checkout-evidence-2026-07-02.md`
@@ -64,7 +66,7 @@ RAM, 2 TB SSD, and Windows 11 Pro through GEEKOM direct after confirming code
 GKSS300 was good.
 
 The next useful action is order follow-up, delivery tracking, return-window
-protection, and setup preparation.
+protection, setup execution, and acceptance validation.
 
 The 2026-07-04 post-order buyer's-remorse scan found no current trusted-channel
 reason to cancel or regret the order. Continue with order follow-up unless the
@@ -78,11 +80,11 @@ Priority follow-up targets:
    delivery estimate, and return-window deadline when available.
 2. Track shipment and delivery.
 3. Preserve receipt and warranty evidence.
-4. Prepare first-boot validation checklist.
-5. Prepare setup checklist for Windows, updates, drivers, GitHub, VS Code,
-   Codex, repository storage, backup/sync, and recovery.
-6. Validate delivered hardware against the ordered configuration.
-7. Decide acceptance or return before the return window closes.
+4. Use the post-order setup and acceptance checklist for first-boot validation,
+   Windows activation, updates, drivers, GitHub, VS Code, Codex, repository
+   storage, backup/sync, and recovery.
+5. Validate delivered hardware against the ordered configuration.
+6. Decide acceptance or return before the return window closes.
 
 ## Reporting Cadence
 
@@ -108,10 +110,16 @@ Deprioritized from latest evidence:
 
 ## Next Output
 
-The next output should be a post-order setup and acceptance checklist for the
-GEEKOM IT15. It should cover delivery tracking, receipt/warranty preservation,
-return-window protection, first-boot validation, driver/firmware updates,
-Windows activation, GitHub/repository hub setup, backup/sync/recovery, and the
-acceptance decision before the return window closes. Peripheral planning should
-prioritize a good 27-inch or 32-inch 4K monitor, Ethernet, backup storage, and
-surge/UPS protection before buying a USB hub or dock.
+The next output should be an order follow-up record once confirmation,
+shipping, delivery estimate, final cost, warranty, and return-window facts are
+available.
+
+The post-order setup and acceptance checklist now exists at:
+
+```text
+reports/geekom-it15-post-order-setup-and-acceptance-checklist-2026-07-04.md
+```
+
+Peripheral planning should prioritize a good 27-inch or 32-inch 4K monitor,
+Ethernet, backup storage, and surge/UPS protection before buying a USB hub or
+dock.
