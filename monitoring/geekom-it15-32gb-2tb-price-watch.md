@@ -44,6 +44,84 @@ Trigger thresholds:
 Collection date:
 
 ```text
+2026-07-04
+```
+
+Best Buy evidence:
+
+- Direct product page shows $1,499.00.
+- Direct page comparable value / prior price shows $1,699.00; visible savings
+  language shows "Save $200."
+- Seller visibility: sold and shipped by GEEKOM INC.
+- Shipping visibility: pickup unavailable from this seller; shipping shown as
+  free, with delivery shown as Mon, Jul 13 in the fetched listing evidence.
+- Return visibility: Best Buy return and exchange policy link visible.
+- Sale language: "4th of July Sale Ends Sunday. Limited quantities. No
+  rainchecks."
+- Cart/listing discrepancy: Best Buy search/related-listing evidence still
+  shows the same 32 GB / 2 TB model at $1,274.00, while the direct product page
+  shows $1,499.00. Treat $1,274 as unconfirmed until cart checkout reflects it.
+- Coupon/code availability: no Best Buy coupon code observed.
+
+Amazon evidence:
+
+- Product page shows $1,499.00.
+- Seller visibility: sold by GEEKOM US Store.
+- Shipping visibility: ships from Amazon; listing shows in stock and free
+  delivery language.
+- Return visibility: free 30-day refund/replacement and at least one free
+  return option visible.
+- Sale language: no discount or coupon language observed for the 32 GB / 2 TB
+  watched model.
+- Coupon/code availability: no Amazon coupon observed.
+- Cart/listing discrepancy: no price discrepancy observed; add-to-cart subtotal
+  evidence matches $1,499.00 before tax/shipping.
+
+GEEKOM direct evidence:
+
+- Product page/search evidence shows price range of $1,399-$1,499.
+- Product page shows the watched U9-285H 32 GB RAM + 2 TB SSD option.
+- Sale language: Summer Sale / "Save Up to 50%" / "Better Than Prime Day
+  Prices, Still Live" / "Free US Shipping + 3-Year Warranty on Mini PCs."
+- Coupon/code availability: page shows "-$300" code `GKSS300`, "Apply at
+  checkout for instant savings."
+- Shipping/return/warranty visibility: US local inventory, 3-year warranty,
+  30-day refund and return, and 30-day money-back guarantee language visible.
+- Cart/listing discrepancy: code has not been cart-verified in this run. If
+  `GKSS300` applies to the 32 GB / 2 TB configuration at $1,499, estimated
+  pre-tax price is $1,199, which hits the strong buy signal.
+
+Alert status:
+
+```text
+ALERT: GEEKOM direct likely reaches the $1,199 strong-buy threshold if code
+GKSS300 applies cleanly to the 32 GB / 2 TB configuration in cart. Best Buy
+also continues to show a $1,274 listing/search discrepancy, below the $1,299
+serious-review threshold, but the direct product page remains $1,499.
+```
+
+Best current stance:
+
+```text
+Same-day review is warranted for GEEKOM direct only if cart confirms $1,199
+before tax with normal free shipping, 30-day return, and 3-year warranty terms.
+Do not treat Amazon $1,499 or Best Buy direct-page $1,499 as buy signals.
+Treat Best Buy $1,274 as a cart-verification lead, not a confirmed purchase
+price.
+```
+
+Sources checked:
+
+- [Best Buy direct product page](https://www.bestbuy.com/product/geekom-it15-ai-mini-pc-15th-gen-intel-core-ultra-9-285h-32gb-ddr5-ram-2tb-nvme-pcie-gen44-ssd-window-11-pro-pre-installed-black/J3GW6682YW/sku/10152222)
+- [Amazon product page](https://www.amazon.com/GEEKOM-IT15-Powerful-Display-Windows11Pro/dp/B0F8QKDY2S)
+- [GEEKOM direct product page](https://www.geekompc.com/geekom-it15-mini-pc/)
+- [Best Buy search/related-listing evidence](https://www.bestbuy.com/product/geekom-it15-ai-mini-pc-15th-gen-intel-core-ultra-9-285h-32gb-ddr5-ram-1tb-nvme-pcie-gen44-ssd-window-11-pro-pre-installed-black/J3GW668YTS)
+
+## Prior Evidence Snapshot
+
+Collection date:
+
+```text
 2026-07-03
 ```
 
