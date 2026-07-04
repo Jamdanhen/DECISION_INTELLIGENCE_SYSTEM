@@ -3,7 +3,7 @@
 Status:
 
 ```text
-Ordered
+Ordered, paid, and processed
 ```
 
 Order date:
@@ -26,6 +26,13 @@ Purchase channel:
 
 ```text
 GEEKOM direct
+```
+
+Latest project update:
+
+```text
+2026-07-04: User reports the order has been ordered, paid for, and processed.
+Shipment is now the next expected vendor action.
 ```
 
 Known purchase rationale:
@@ -55,8 +62,8 @@ configuration.
 
 Record when available:
 
-- final order total
-- taxes
+- final order total, if the user chooses to record it
+- taxes, if the user chooses to record them
 - shipping charge, if any
 - estimated delivery date
 - order number or receipt location, if user chooses to record it

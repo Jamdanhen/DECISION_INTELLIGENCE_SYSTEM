@@ -3,7 +3,7 @@
 Status:
 
 ```text
-Active monitoring plan
+Market scan retired for selected workstation; delivery and acceptance monitoring active
 ```
 
 Decision case:
@@ -14,49 +14,73 @@ Primary Development Workstation for the Crucible Registry ecosystem
 
 ## Default Cadence
 
-Refresh the procurement report weekly during active procurement.
+Do not continue weekly market scans for this specific workstation purchase.
 
-Current automation:
+The GEEKOM IT15 order has been placed, paid for, and processed. The active
+monitoring lane is now delivery, setup, validation, and return-window
+protection.
+
+Prior automation:
 
 ```text
 Weekly Workstation Procurement Report
 ```
 
-Default scheduled refresh:
+Disposition:
 
 ```text
-Mondays at 9:00 AM America/New_York
+Deleted from Codex app on 2026-07-04 after the user confirmed the purchase is
+made, confirmed, and going through.
 ```
 
-## Same-Day Refresh Triggers
+Deleted automations:
 
-Refresh the report the same day when:
+- `monitor-geekom-it15-32gb-2tb-price`
+- `weekly-workstation-procurement-report`
 
-- a leading candidate changes price materially
-- a major promotion appears or expires
-- a leading candidate goes out of stock
-- a better candidate enters the market
-- the user changes budget, requirements, or constraints
-- warranty, reliability, wireless, or upgrade evidence changes materially
-- the user indicates purchase timing has become active
+## Delivery and Acceptance Triggers
 
-## Final Refresh Trigger
+Refresh the order follow-up record when:
 
-Before any purchase decision, run a final refresh of:
+- shipment confirmation appears
+- tracking number or carrier becomes available
+- delivery estimate changes materially
+- the device is delivered
+- warranty or return-window terms become available
+- first-boot validation begins
+- a hardware, activation, driver, network, sleep/wake, thermal, or reliability
+  issue appears
+- the return-window deadline is approaching
 
-- current price
-- stock
-- coupon availability
-- return policy
-- warranty
-- completed cost
-- shipping and tax estimate if available
-- upgrade path
-- confidence
+## Market Scan Closure
 
-Do not treat any earlier report as final purchase evidence without this refresh.
+The specific workstation market scan is closed.
 
-## Current Watch List
+Do not run further candidate, price, promotion, or alternative-market checks for
+this purchase.
+
+If the shipped unit has a delivery, support, warranty, configuration, or
+hardware problem, handle that as order follow-up and acceptance-window support,
+not as renewed shopping.
+
+## Final Acceptance Trigger
+
+Before the device is accepted, validate:
+
+- delivered configuration
+- Windows 11 Pro activation
+- driver and firmware stability
+- Wi-Fi, Ethernet, Bluetooth, HDMI, USB4, and storage behavior
+- sleep/wake behavior
+- idle and light-work thermals/noise
+- repository hub setup
+- backup, sync, and recovery readiness
+- normal productivity workflow with ChatGPT, Codex, VS Code, GitHub, Markdown
+  repositories, and Microsoft Office
+
+## Retired Watch List
+
+The prior candidate watch list is no longer active for this specific purchase:
 
 - GEEKOM A7 Max
 - GMKtec NucBox M6 Ultra
@@ -66,4 +90,3 @@ Do not treat any earlier report as final purchase evidence without this refresh.
 - MINISFORUM MS-01
 - Dell business micro desktop options
 - ASUS NUC business mini desktop options
-

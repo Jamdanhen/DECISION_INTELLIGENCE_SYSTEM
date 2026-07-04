@@ -36,6 +36,7 @@ Completed foundation outputs:
 - `reports/post-order-buyers-remorse-scan-2026-07-04.md`
 - `reports/geekom-it15-post-order-setup-and-acceptance-checklist-2026-07-04.md`
 - `reports/project-waypoint-2026-07-04.md`
+- `reports/decision-system-validity-and-reuse-plan-2026-07-04.md`
 - `reports/workstation-procurement-report-template.md`
 - `reports/checkout-validation-2026-07-01.md`
 - `evidence/minisforum-ai-x1-pro-370-checkout-evidence-2026-07-02.md`
@@ -54,25 +55,28 @@ Completed foundation outputs:
 
 ## Active Work
 
-The active work is now the Technology Procurement workstation order follow-up
-and setup phase.
+The active work is now split into two lanes:
 
-GitHub hub architecture and hardware procurement monitoring are now parallel
-lanes. Treating GitHub as the likely repository authority does not pause
-hardware scanning; it narrows what hardware must prove.
+1. GEEKOM IT15 delivery, setup, validation, and return-window protection.
+2. Decision Intelligence System validity and reuse planning.
 
 The user ordered the GEEKOM IT15 AI Mini PC with Intel Core Ultra 9 285H, 32 GB
 RAM, 2 TB SSD, and Windows 11 Pro through GEEKOM direct after confirming code
 GKSS300 was good.
 
+The user reports the order has now been ordered, paid for, and processed.
+Shipment is the next expected vendor action.
+
 The next useful action is order follow-up, delivery tracking, return-window
 protection, setup execution, and acceptance validation.
 
-The 2026-07-04 post-order buyer's-remorse scan found no current trusted-channel
-reason to cancel or regret the order. Continue with order follow-up unless the
-same IT15 32 GB / 2 TB or a clearly superior 32 GB / 2 TB candidate appears
-from a trusted channel for at least $150-$200 less before cancellation or return
-becomes difficult.
+The 2026-07-04 post-order buyer's-remorse scan found no trusted-channel reason
+to cancel or regret the order. Because the order is now paid for and processed,
+the ongoing market scans for this specific workstation topic are closed. The
+Codex scheduled tasks for the IT15 price monitor and weekly workstation
+procurement report have been deleted. Future work for this purchase should
+focus on delivery, receipt preservation, setup, validation, warranty, and
+acceptance-window protection.
 
 Priority follow-up targets:
 
@@ -91,9 +95,14 @@ Priority follow-up targets:
 Default cadence during order follow-up:
 
 - Delivery/status refresh when shipment status changes.
-- Setup checklist before device arrival.
 - Acceptance review after first-boot validation.
 - Return-window reminder before the return deadline.
+
+Specific workstation market-scan cadence:
+
+```text
+Retired after order paid and processed.
+```
 
 ## Current Device Focus
 
@@ -113,6 +122,10 @@ Deprioritized from latest evidence:
 The next output should be an order follow-up record once confirmation,
 shipping, delivery estimate, final cost, warranty, and return-window facts are
 available.
+
+The next system-development output should be a post-acceptance retrospective
+after the workstation return-window decision, followed by one bounded Case 2 to
+test whether the Decision Intelligence System is reusable.
 
 The post-order setup and acceptance checklist now exists at:
 

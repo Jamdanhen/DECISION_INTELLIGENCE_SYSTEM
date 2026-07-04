@@ -145,12 +145,14 @@ The workstation case should eventually answer:
 
 ## Current Status
 
-Module brief created.
+First worked case active.
 
-The Technology Procurement module is defined at a high level.
+The Technology Procurement module has supported the Primary Development
+Workstation case through recommendation and order. The selected GEEKOM IT15 has
+been ordered, paid for, and processed.
 
-The workstation decision case has been named but not created.
+The active workstation work is now delivery, setup, validation, and
+acceptance-window protection.
 
-No final procurement scoring schema, evidence template, report template, or
-monitoring plan has been finalized.
-
+The next module-development need is to extract reusable procurement patterns
+from the workstation case and test them on one smaller second purchase case.

@@ -13,10 +13,25 @@ Inherited defaults include:
 - work from meaningful decision point to meaningful decision point
 - do not create micro-approval loops
 - continue through safe implied work inside an approved lane
-- stop only at real decision, authority, source-modification, or safety boundaries
+- stop only at real decision, authority, source-modification, or safety
+  boundaries
 - provide a concrete next action or real pause boundary in closeouts
+- when user approval or direction is needed, provide short, separate,
+  copyable `ADD TO CHAT` blocks; each block must contain one action only and
+  must include the expected output
+- when the user asks for a generated artifact or content output, provide the
+  artifact itself in the appropriate readable or copyable format, not an `ADD
+  TO CHAT` approval block
 - keep project substance inside the owning project
 - preserve local project authority and local overrides
+- treat the C drive as the default source of truth for durable project files
+  until another source of truth is explicitly identified; treat OneDrive,
+  sync folders, mirrors, and interface folders as copies only
+- when the user says `establish waypoint` or `create a waypoint`, follow the
+  Registry Project Waypoint Synchronization Rule, including current Registry
+  guidance review, inherited-guidance refresh, local state review, commit, push
+  to GitHub when connected, alignment confirmation, and notation of any
+  intentionally unfinished work
 - protect user files from unapproved move, rename, delete, merge, overwrite,
   cleanup, or restructure operations
 
@@ -76,6 +91,9 @@ Rule.
 
 When the user says "establish waypoint" or "create a waypoint":
 
+- Recheck current Registry-provided guidance.
+- Refresh the local Registry inheritance block if the approved Registry block
+  has changed.
 - Review changed files.
 - Confirm the waypoint aligns with the active objective, authority boundary, and
   next real decision point.
@@ -92,6 +110,78 @@ domain-specific decision modules.
 
 It supports decisions for other projects, but it does not become the authority
 over those projects.
+
+## Registry-Scoped Decision Discovery
+
+The Decision Intelligence System should not begin by inventing a full decision
+model from theory alone.
+
+Its first expansion behavior is evidence gathering from the Crucible Registry.
+
+When the user says `scan`, `update`, or `look for decisions` in the context of
+this project, interpret that as a registry-scoped decision discovery request.
+
+For that request:
+
+- use `C:\CRUCIBLE_REGISTRY` as the registry authority boundary
+- inspect registry entries and registry-approved project authority references
+- identify project files updated since the last Decision Intelligence System
+  scan, when a prior scan record exists
+- look for decisions made inside those projects
+- look for context showing how those decisions were made
+- extract decision-process evidence, not project substance for its own sake
+- record findings only inside `C:\DECISION_INTELLIGENCE_SYSTEM`
+- do not modify the Crucible Registry or any source project unless the user
+  explicitly approves that separate modification
+
+Decision discovery should classify findings as:
+
+- explicit decision
+- implied decision
+- decision rationale
+- criteria or values used
+- tradeoff accepted
+- option rejected
+- authority or boundary decision
+- unresolved decision
+- missing decision context
+
+When updated files do not contain enough decision context, generate
+case-specific questions that would help refine the Decision Intelligence model.
+Questions should be tied to the observed project, file, decision area, or
+missing rationale. Do not ask generic questions merely to fill a template.
+
+Registry-scoped decision discovery may produce:
+
+- scan records
+- decision evidence extracts
+- case-specific question lists
+- model-refinement notes
+- recommendations for what decision pattern may be emerging
+
+Every Decision Intelligence scan must create a scan-derived note inside
+`C:\DECISION_INTELLIGENCE_SYSTEM`.
+
+The scan record preserves what was inspected and what was found. The note
+preserves what the scan means for the project.
+
+Scan-derived notes should capture:
+
+- durable implications for the Decision Intelligence model
+- candidate fields, patterns, or distinctions suggested by evidence
+- case-specific questions raised by missing decision context
+- risks of over-generalizing project-local rules
+- any recommended next model-refinement action
+
+Scan-derived notes are working notes. They do not update the core model,
+project standards, Registry entries, or source projects unless the user later
+approves that separate promotion or modification.
+
+These outputs are working evidence, not final governance.
+
+The Decision Intelligence System may use the registry to discover where
+decision evidence lives, but it must not absorb authority from the registry or
+from the projects described by the registry.
 
 ## Architecture Guidance
 

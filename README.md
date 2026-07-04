@@ -53,8 +53,12 @@ those projects.
 
 ## Current Status
 
-Foundation stage.
+First worked case in post-order follow-up.
 
-No module structure, scoring schema, report format, or automation workflow has
-been finalized.
+The Technology Procurement module has produced its first workstation decision
+case. The GEEKOM IT15 has been ordered, paid for, and processed. The project is
+now tracking delivery, setup, validation, and acceptance.
 
+The next system-level task is to test whether the workstation case can be used
+to extract reusable decision templates and support at least one additional
+bounded decision case.
