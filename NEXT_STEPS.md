@@ -37,6 +37,7 @@ Completed foundation outputs:
 - `reports/geekom-it15-post-order-setup-and-acceptance-checklist-2026-07-04.md`
 - `reports/project-waypoint-2026-07-04.md`
 - `reports/decision-system-validity-and-reuse-plan-2026-07-04.md`
+- `reports/monitor-and-peripheral-deals-2026-07-05.md`
 - `reports/workstation-procurement-report-template.md`
 - `reports/checkout-validation-2026-07-01.md`
 - `evidence/minisforum-ai-x1-pro-370-checkout-evidence-2026-07-02.md`
@@ -126,6 +127,29 @@ available.
 The next system-development output should be a post-acceptance retrospective
 after the workstation return-window decision, followed by one bounded Case 2 to
 test whether the Decision Intelligence System is reusable.
+
+The monitor and peripheral market note now exists at:
+
+```text
+reports/monitor-and-peripheral-deals-2026-07-05.md
+```
+
+Current monitor posture:
+
+```text
+Acer Nitro KGB271U 27-inch QHD IPS monitor is the leading value buy at the
+current observed price. LG 27U631A-B is the lower-cost USB-C alternative. Dell
+S2725QC is a premium convenience option, not the default. USB hub or dock should
+wait until the actual desk setup proves it is needed.
+```
+
+User clarified monitor priorities:
+
+```text
+Compatibility first, price second, data-processing function third. This is not a
+gaming-console setup. Prefer a normal HDMI-compatible 27-inch QHD IPS monitor in
+the $150-$200 range unless there is a specific reason to pay more.
+```
 
 The post-order setup and acceptance checklist now exists at:
 
