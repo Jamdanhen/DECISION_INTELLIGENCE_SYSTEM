@@ -3,7 +3,7 @@
 Status:
 
 ```text
-Active watch item
+Closed price watch
 ```
 
 Model:
@@ -19,10 +19,35 @@ Primary links:
 - [GEEKOM direct listing](https://www.geekompc.com/geekom-it15-mini-pc/)
 - [Amazon price history reference](https://pricehistory.app/p/geekom-it15-most-powerful-ai-mini-pc-V13hsFIm)
 
-## Current Watch Rule
+## Closure
 
+This price watch is closed.
+
+The PC purchase has been made, confirmed, and is going through. Do not run
+further market scans, price checks, candidate checks, promotion checks, or
+scheduled tasks for this PC purchase.
+
+Closed scheduled task:
+
+```text
+monitor-geekom-it15-32gb-2tb-price
+```
+
+Disposition:
+
+```text
+Deleted from Codex app automation store. This file is retained as historical
+evidence only.
+```
+
+## Original Watch Rule
+
+Historical rule before purchase:
+
+```text
 Monitor this model as a discrete watch item. Do not change the broader
 workstation search parameters.
+```
 
 Market timing factors:
 
@@ -216,11 +241,14 @@ candidate rather than waiting indefinitely.
 
 ## Monitoring Automation
 
-An active daily monitor has been created:
+Prior daily monitor:
 
 ```text
 monitor-geekom-it15-32gb-2tb-price
 ```
 
-The monitor checks the Best Buy and Amazon listings and records price, seller,
-shipping/return visibility, and listing/cart discrepancies.
+Status:
+
+```text
+Deleted. No active PC market-scan automation remains for this purchase.
+```
